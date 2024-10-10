@@ -44,7 +44,7 @@ if tag != 'Select Topics':  # Check if the user has selected a valid topic
 
                 # Save the DataFrame to a CSV file with a specific naming format based on the topic and date
                 df.to_csv(
-                    f'D:/BVM/Sem 6 Work/Mini Project/Blog-Recommendation-System-Notebooks/MediumBlogData/{tag}_mediumblog{time}.csv',
+                    f'Datapath/{tag}_mediumblog{time}.csv',
                     index=False)
 
                 # Notify the user that the CSV has been generated
