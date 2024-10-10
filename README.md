@@ -1,7 +1,3 @@
-Here's a README file based on the information about your Medium Web Scraper project:
-
----
-
 # Medium Web Scraper
 
 This is a web scraping application that scrapes blogs from Medium.com based on a specified topic and stores the data in a MySQL database. The project is built using Streamlit for the user interface and Selenium for scraping. It allows users to choose from a list of predefined topics, fetch the latest blogs, and save them in a structured format (JSON or CSV).
